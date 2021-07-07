@@ -3,6 +3,7 @@
 let username = prompt('what is your name?   ');
 alert('welcome  ' + username + '  lets play a guessing game');
 let score=0;
+function quistion1(){
 let job = prompt('am i a doctor?   ');
 job = job.toLowerCase();
 if (job == 'yes' || job == 'y') {
@@ -13,7 +14,10 @@ if (job == 'yes' || job == 'y') {
 else if (job == 'no' || job == 'n') {
     alert('sorry, just for doctors');
 }
+}
+quistion1();
 
+function quistion2(){
 let earth = prompt('does the earth is flat?   ');
 earth = earth.toLowerCase();
 if (earth == 'yes' || earth == 'y') {
@@ -25,7 +29,10 @@ else if (earth == 'no' || earth == 'n') {
     alert('that is correct');
     score++;
 }
+}
+quistion2();
 
+function quistion3(){
 let hen = prompt('does the hen fly?   ');
 hen = hen.toLowerCase();
 if (hen == 'yes' || hen == 'y') {
@@ -37,7 +44,10 @@ else if (hen == 'no' || hen == 'n') {
     alert('that is correct');
     score++;
 }
+}
+quistion3();
 
+function quistion4(){
 let favclub = prompt('is my facourite club is Real madid?   ');
 favclub = favclub.toLowerCase();
 if (favclub == 'yes' || favclub == 'y') {
@@ -49,7 +59,11 @@ else if (favclub == 'no' || favclub == 'n') {
     alert('that is correct');
     score++;
 }
+}
+quistion4();
 
+
+function quistion5(){
 let favmeal = prompt('is my facourite meal is Mansaf?   ');
 favmeal = favmeal.toLowerCase();
 if (favmeal == 'yes' || favmeal == 'y') {
@@ -61,8 +75,11 @@ else if (favmeal == 'no' || favmeal == 'n') {
     alert('that is correct');
     score++;
 }
+}
+quistion5();
 
 
+function quistion6(){
 let guessanum = prompt(' Guess a number between 1-10 ');
 for (let i = 0; i < 3; i++) {
     if ( guessanum == 5) {
@@ -83,10 +100,14 @@ for (let i = 0; i < 3; i++) {
             
     }
 }
+}
+quistion6();
+
+
     alert('the correct answer is 5');
 
 
-
+function quistion7(){
      let food= ['shawarma', 'mansaf','burger','kabsah','zinger','pizza'];
              
      let favfood= prompt('what is your favourite food?  ');
@@ -113,9 +134,9 @@ for (let i = 0; i < 3; i++) {
                  
              
      }
+    }
+     quistion7();
       console.log(food);
-
-
 
 console.log('your score is', score);
 alert('thanks for playing  ' + username);
