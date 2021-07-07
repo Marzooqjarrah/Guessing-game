@@ -47,6 +47,7 @@ else if (hen == 'no' || hen == 'n') {
 }
 quistion3();
 
+function quistion4(){
 let favclub = prompt('is my facourite club is Real madid?   ');
 favclub = favclub.toLowerCase();
 if (favclub == 'yes' || favclub == 'y') {
@@ -58,6 +59,8 @@ else if (favclub == 'no' || favclub == 'n') {
     alert('that is correct');
     score++;
 }
+}
+quistion4();
 
 let favmeal = prompt('is my facourite meal is Mansaf?   ');
 favmeal = favmeal.toLowerCase();
