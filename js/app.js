@@ -78,6 +78,8 @@ else if (favmeal == 'no' || favmeal == 'n') {
 }
 quistion5();
 
+
+function quistion6(){
 let guessanum = prompt(' Guess a number between 1-10 ');
 for (let i = 0; i < 3; i++) {
     if ( guessanum == 5) {
@@ -98,6 +100,10 @@ for (let i = 0; i < 3; i++) {
             
     }
 }
+}
+quistion6();
+
+
     alert('the correct answer is 5');
 
 
