@@ -107,7 +107,7 @@ quistion6();
     alert('the correct answer is 5');
 
 
-
+function quistion7(){
      let food= ['shawarma', 'mansaf','burger','kabsah','zinger','pizza'];
              
      let favfood= prompt('what is your favourite food?  ');
@@ -134,9 +134,9 @@ quistion6();
                  
              
      }
+    }
+     quistion7();
       console.log(food);
-
-
 
 console.log('your score is', score);
 alert('thanks for playing  ' + username);
