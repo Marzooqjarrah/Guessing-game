@@ -62,6 +62,8 @@ else if (favclub == 'no' || favclub == 'n') {
 }
 quistion4();
 
+
+function quistion5(){
 let favmeal = prompt('is my facourite meal is Mansaf?   ');
 favmeal = favmeal.toLowerCase();
 if (favmeal == 'yes' || favmeal == 'y') {
@@ -73,7 +75,8 @@ else if (favmeal == 'no' || favmeal == 'n') {
     alert('that is correct');
     score++;
 }
-
+}
+quistion5();
 
 let guessanum = prompt(' Guess a number between 1-10 ');
 for (let i = 0; i < 3; i++) {
