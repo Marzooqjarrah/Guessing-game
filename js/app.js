@@ -17,6 +17,7 @@ else if (job == 'no' || job == 'n') {
 }
 quistion1();
 
+function quistion2(){
 let earth = prompt('does the earth is flat?   ');
 earth = earth.toLowerCase();
 if (earth == 'yes' || earth == 'y') {
@@ -28,6 +29,8 @@ else if (earth == 'no' || earth == 'n') {
     alert('that is correct');
     score++;
 }
+}
+quistion2()
 
 let hen = prompt('does the hen fly?   ');
 hen = hen.toLowerCase();
