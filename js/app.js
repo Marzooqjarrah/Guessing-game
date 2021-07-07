@@ -30,8 +30,9 @@ else if (earth == 'no' || earth == 'n') {
     score++;
 }
 }
-quistion2()
+quistion2();
 
+function quistion3(){
 let hen = prompt('does the hen fly?   ');
 hen = hen.toLowerCase();
 if (hen == 'yes' || hen == 'y') {
@@ -43,6 +44,8 @@ else if (hen == 'no' || hen == 'n') {
     alert('that is correct');
     score++;
 }
+}
+quistion3();
 
 let favclub = prompt('is my facourite club is Real madid?   ');
 favclub = favclub.toLowerCase();
