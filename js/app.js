@@ -3,6 +3,7 @@
 let username = prompt('what is your name?   ');
 alert('welcome  ' + username + '  lets play a guessing game');
 let score=0;
+function quistion1(){
 let job = prompt('am i a doctor?   ');
 job = job.toLowerCase();
 if (job == 'yes' || job == 'y') {
@@ -13,6 +14,8 @@ if (job == 'yes' || job == 'y') {
 else if (job == 'no' || job == 'n') {
     alert('sorry, just for doctors');
 }
+}
+quistion1();
 
 let earth = prompt('does the earth is flat?   ');
 earth = earth.toLowerCase();
