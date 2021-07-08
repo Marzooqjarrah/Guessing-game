@@ -1,0 +1,17 @@
+footer{
+    background-color: brown;
+}
+
+header {
+    background-color: chartreuse;
+    text-align: center;
+}
+ol{
+    color: darkgoldenrod;
+    text-align: left;
+}
+
+ul{
+    background-color: purple;
+    color: white;
+}
