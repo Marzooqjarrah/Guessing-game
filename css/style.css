@@ -1,17 +1,28 @@
 footer{
     background-color: brown;
+    color: wheat;
 }
 
 header {
     background-color: chartreuse;
     text-align: center;
+    color: whitesmoke;
 }
+
+
+body{
+background-color: violet;
+color: yellowgreen;
+}
+
 ol{
     color: darkgoldenrod;
     text-align: left;
+    background-color: pink;
 }
 
 ul{
     background-color: purple;
     color: white;
+    
 }
